@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            //For Drama Movies
+            <TextView
+                android:id="@+id/DramamovietypeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:text="Drama"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/viewIdOfDrama"
+                android:layout_toRightOf="@+id/DramamovietypeId"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_height="2.5dp"
+                android:layout_marginTop="23dp"
+                android:background="#FFFFFF" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/DramarecyclerViewId"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/DramamovietypeId" />
+
+
+            //For War Movies
+            <TextView
+                android:id="@+id/WarmovietypeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:gravity="center"
+                android:layout_below="@+id/DramarecyclerViewId"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:text="War"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/viewIdOfWar"
+                android:layout_toRightOf="@+id/WarmovietypeId"
+                android:layout_below="@+id/DramarecyclerViewId"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_height="2.5dp"
+                android:layout_marginTop="23dp"
+                android:background="#FFFFFF" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/WarrecyclerViewId"
+                android:layout_marginTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/WarmovietypeId" />
+
+
+            //For Mobsters Movies
+            <TextView
+                android:id="@+id/MobstersmovietypeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:gravity="center"
+                android:layout_below="@+id/WarrecyclerViewId"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:text="Mobsters"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/viewIdOfMobsters"
+                android:layout_toRightOf="@+id/MobstersmovietypeId"
+                android:layout_below="@+id/WarrecyclerViewId"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_height="2.5dp"
+                android:layout_marginTop="23dp"
+                android:background="#FFFFFF" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/MobstersrecyclerViewId"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/MobstersmovietypeId" />
+
+            //For Romantic Movies
+            <TextView
+                android:id="@+id/RomanticmovietypeId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/aldrich"
+                android:gravity="center"
+                android:layout_below="@+id/MobstersrecyclerViewId"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:text="Romantic"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/viewIdOfRomantic"
+                android:layout_toRightOf="@+id/RomanticmovietypeId"
+                android:layout_below="@+id/MobstersrecyclerViewId"
+                android:layout_width="wrap_content"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_height="2.5dp"
+                android:layout_marginTop="23dp"
+                android:background="#FFFFFF" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RomanticrecyclerViewId"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RomanticmovietypeId" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

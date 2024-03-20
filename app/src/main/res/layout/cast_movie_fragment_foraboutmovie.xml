@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/castimageviewId"
+            android:layout_marginLeft="20dp"
+            app:civ_border_color="#006AFF"
+            app:civ_border_width="2dp"
+            android:src="@drawable/frank_darabont"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <TextView
+            android:id="@+id/castnameOfactorId"
+            android:text="Frank Darabont"
+            android:textSize="30dp"
+            android:fontFamily="@font/amarante"
+            android:textColor="@color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/castimageviewId1"
+                android:src="@drawable/tim_robbins"
+                android:layout_width="80dp"
+                android:layout_marginLeft="20dp"
+                app:civ_border_color="#006AFF"
+                app:civ_border_width="2dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:id="@+id/castnameOfactorId1"
+                android:text="Tim Robbins"
+                android:textSize="30dp"
+                android:fontFamily="@font/amarante"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/castimageviewId2"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/morgan_freeman"
+                android:layout_width="80dp"
+                app:civ_border_color="#006AFF"
+                app:civ_border_width="2dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:id="@+id/castnameOfactorId2"
+                android:text="Morgan Freeman"
+                android:textSize="30dp"
+                android:fontFamily="@font/amarante"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/castimageviewId3"
+                android:src="@drawable/james_whitmore"
+                android:layout_marginLeft="20dp"
+                android:layout_width="80dp"
+                app:civ_border_color="#006AFF"
+                app:civ_border_width="2dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:id="@+id/castnameOfactorId3"
+                android:text="James Whitmore"
+                android:textSize="30dp"
+                android:fontFamily="@font/amarante"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/castimageviewId4"
+                android:src="@drawable/bob_gunton"
+                android:layout_width="80dp"
+                android:layout_marginLeft="20dp"
+                app:civ_border_color="#006AFF"
+                app:civ_border_width="2dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:id="@+id/castnameOfactorId4"
+                android:text="Bob Gunton"
+                android:textSize="30dp"
+                android:fontFamily="@font/amarante"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/castimageviewId5"
+                android:src="@drawable/william_sadler"
+                android:layout_width="80dp"
+                android:layout_marginLeft="20dp"
+                app:civ_border_color="#006AFF"
+                app:civ_border_width="2dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:id="@+id/castnameOfactorId5"
+                android:text="William Sadler"
+                android:textSize="30dp"
+                android:fontFamily="@font/amarante"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/castimageviewId6"
+                android:src="@drawable/clancy_brown"
+                android:layout_width="80dp"
+                android:layout_marginLeft="20dp"
+                app:civ_border_color="#006AFF"
+                app:civ_border_width="2dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:id="@+id/castnameOfactorId6"
+                android:text="Clancy Brown"
+                android:textSize="30dp"
+                android:fontFamily="@font/amarante"
+                android:textColor="@color/white"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

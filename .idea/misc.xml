@@ -1,0 +1,40 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/drawable/bottom_navigation_coloroficons_custom.xml" value="0.172" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/drawable/custom_button_watchanddownload.xml" value="0.184" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/drawable/shadow_effects_for_backgroundpicture.xml" value="0.1705" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/font/aladin.xml" value="0.234375" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/font/aldrich.xml" value="0.234375" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/about_the_movie_fragmnent__foraboutthemovie.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/activity_about_the_movie.xml" value="0.22" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/activity_watch_movie.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/cast_fragment_custom_of_aboutmovie.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/cast_fragment_rowlist_custom_of_aboutmovie.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/cast_movie_fragment_foraboutmovie.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/fragment_fire.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/fragment_fire_row_custom.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/moviepicture_custom_recyclerview.xml" value="0.22" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/myxml.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/story_movie_fragment_foraboutmovie.xml" value="0.22" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/layout/watch_or_down_movie_fragment_foraboutmovie.xml" value="0.25" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/menu/buttom_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/menu/menu_of_aboutthemovie_activity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/menu/my_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/menu/my_profile_menu.xml" value="0.25" />
+        <entry key="..\:/Users/achel/AndroidStudioProjects/MovieIsland/app/src/main/res/menu/profile_menu.xml" value="1.0" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

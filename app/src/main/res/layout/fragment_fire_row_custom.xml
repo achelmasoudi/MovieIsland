@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1Id"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#484848"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="168dp"
+        android:layout_height="247dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/firstImageOfFireFragment"
+                android:src="@drawable/abeautifulmind"
+                android:layout_centerInParent="true"
+                android:layout_width="160dp"
+                android:layout_height="238dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <View
+        android:id="@+id/viewOffragmentFireId1"
+        android:layout_below="@id/cardView1Id"
+        android:layout_marginTop="6dp"
+        android:background="#FFFFFF"
+        android:layout_width="155dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:layout_height="3dp" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/watchmovieTextViewId"
+            android:text="To Watch The Movie"
+            android:gravity="center"
+            android:fontFamily="@font/amarante"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/buttonToWatchMovieId"
+            android:layout_width="280dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/custom_button_watchanddownload"
+            android:fontFamily="@font/saira_stencil_one"
+            android:gravity="center"
+            android:text="Watch"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/downloadmovieTextViewId"
+            android:text="To Download The Movie"
+            android:gravity="center"
+            android:fontFamily="@font/amarante"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="Download"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_button_watchanddownload"
+            android:fontFamily="@font/saira_stencil_one"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:id="@+id/buttonToDownloadMovieId"
+            android:layout_width="280dp"
+            android:layout_height="42dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>

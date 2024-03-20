@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1056823713364",
+    "project_id": "movie-island-bea24",
+    "storage_bucket": "movie-island-bea24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056823713364:android:2b6e5a3479190aa85d57c1",
+        "android_client_info": {
+          "package_name": "org.myprojectofnotes2022.moviemax12.moviesisland20012"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056823713364-fqe50oqo2okfqclgiaj5gnpqbmcle3dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEl83C-BYzTD1QFB3lVN-QseX6hqxhhxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056823713364-fqe50oqo2okfqclgiaj5gnpqbmcle3dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

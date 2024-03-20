@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeId_navigation"
+        android:icon="@drawable/home_icon_nav"
+        android:title="Home"/>
+
+    <item android:id="@+id/fireId_navigation"
+        android:icon="@drawable/fire_icon_nav"
+        android:title="Fire"/>
+
+    <item android:id="@+id/favoriteId_navigation"
+        android:icon="@drawable/favourite_icon_nav"
+        android:title="Favorite"/>
+
+
+    <item android:id="@+id/profileId_navigation"
+        android:icon="@drawable/profile_icon_nav"
+        android:title="Profile"/>
+
+</menu>

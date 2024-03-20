@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_margin="15dp"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/idnameOfMovie"
+            android:text="Movie Name : A Beautiful Mind"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/amarante"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/idyearOfmovie"
+            android:layout_below="@id/idnameOfMovie"
+            android:text="Release Date : 2001"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/amarante"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/idtypeOfmovie"
+            android:layout_below="@id/idyearOfmovie"
+            android:text="Type : Drama - Romance"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/amarante"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/timeId"
+            android:layout_below="@id/idtypeOfmovie"
+            android:text="Running Time : 2h 15m"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/amarante"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/directorId"
+            android:text="Director : Ron Howard"
+            android:layout_below="@id/timeId"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/amarante"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/writerId"
+            android:text="Writer : Akiva Goldsman"
+            android:layout_below="@id/directorId"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/amarante"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text="Country : United States"
+            android:layout_below="@id/writerId"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/amarante"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>
