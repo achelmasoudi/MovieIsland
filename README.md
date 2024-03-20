@@ -1,4 +1,4 @@
-Movies Island
+# Movies Island
 
 Welcome to Movie Island! This Android Studio project is a movie browsing and discovery application designed to provide users with a seamless experience in exploring their favorite movies
 
